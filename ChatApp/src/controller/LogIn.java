@@ -15,7 +15,7 @@ public class LogIn extends RequestHandler {
 	@Override
 	public String handleRequest(HttpServletRequest request,
 			HttpServletResponse response) {
-		String destination = "index.jsp";
+		String destination = "chat.jsp";
 		List<String> errors = new ArrayList<String>();
 		
 		String email = request.getParameter("email");
