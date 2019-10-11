@@ -10,6 +10,7 @@ public enum Status {
     }
 
     Status() {
+
     }
 
     public String getDescription() {
